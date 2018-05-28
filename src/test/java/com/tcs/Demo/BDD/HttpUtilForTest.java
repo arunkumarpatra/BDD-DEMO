@@ -1,4 +1,4 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -6,9 +6,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
 
-/**
- * Created by admin on 3/16/2018.
- */
 public class HttpUtilForTest {
     private static final int SUCCESS_CODE = 200;
     private static final int ERROR_CODE = 400;

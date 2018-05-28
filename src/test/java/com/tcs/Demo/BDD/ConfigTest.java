@@ -1,4 +1,4 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
 import java.lang.annotation.*;
 
@@ -6,10 +6,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 
+import com.tcs.Demo.BDD.DemoBddApplication;
 
-/**
- * Created by admin on 3/15/2018.
- */
+
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @ContextConfiguration

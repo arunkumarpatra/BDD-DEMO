@@ -1,8 +1,10 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.kgcorner.Demo.BDD.Model.Book;
+import com.tcs.Demo.BDD.Store;
+import com.tcs.Demo.BDD.Model.Book;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,13 +13,10 @@ import org.junit.Assert;
 import java.lang.reflect.Type;
 import java.util.List;
 
-/**
- * Created by admin on 3/15/2018.
- */
 @ConfigTest
 public class BooksFeature {
 
-    private String REQUEST_BOOK_URL = "http://localhost:8080/books?count=%d";
+    private String REQUEST_BOOK_URL = "http://localhost:8083/books?count=%d";
 
     @When("^'(\\d+)' Books are requested$")
     public void booksAreRequested(int count) throws Throwable {

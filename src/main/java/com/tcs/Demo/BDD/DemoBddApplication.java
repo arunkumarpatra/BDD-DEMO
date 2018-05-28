@@ -1,4 +1,4 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,5 @@
-package com.kgcorner.Demo.BDD.Model;
+package com.tcs.Demo.BDD.Model;
 
-/**
- * Created by admin on 3/15/2018.
- */
 public class Book {
     private String name;
     private int price;

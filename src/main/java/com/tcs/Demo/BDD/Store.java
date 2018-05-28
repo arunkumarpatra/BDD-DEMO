@@ -1,17 +1,14 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.kgcorner.Demo.BDD.Model.Book;
+import com.tcs.Demo.BDD.Model.Book;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by admin on 3/15/2018.
- */
 public class Store {
     private static List<Book> books;
     private static String booksJson = "[\n" +

@@ -1,8 +1,5 @@
-package com.kgcorner.Demo.BDD;
+package com.tcs.Demo.BDD;
 
-/**
- * Created by admin on 3/16/2018.
- */
 public class Response {
     private String responseData;
     private int responseCode;

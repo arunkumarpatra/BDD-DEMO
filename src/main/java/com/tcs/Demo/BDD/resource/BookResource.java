@@ -1,16 +1,15 @@
-package com.kgcorner.Demo.BDD.resource;
+package com.tcs.Demo.BDD.resource;
 
-import com.kgcorner.Demo.BDD.Model.Book;
-import com.kgcorner.Demo.BDD.Store;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tcs.Demo.BDD.Store;
+import com.tcs.Demo.BDD.Model.Book;
+
 import java.util.List;
 
-/**
- * Created by admin on 3/15/2018.
- */
+
 @RestController
 public class BookResource {
 
